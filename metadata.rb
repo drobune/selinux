@@ -4,7 +4,7 @@ maintainer_email "s.yuichi227@tmail.com"
 license          "Apache"
 description      "Manages SELinux policy state via LWRP or recipes."
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          "0.1.0"
+version          "0.9.0"
 
 %w{redhat centos scientific oracle amazon ubuntu debian}.each do |os|
   supports os
