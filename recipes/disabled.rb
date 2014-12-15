@@ -22,4 +22,5 @@ include_recipe 'selinux::_common'
 
 selinux_state "SELinux Disabled" do
   action :disabled
+  only_if "which getenforce"
 end
